@@ -1,0 +1,191 @@
+/* NOTEBOOKS */
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    #foto {
+        margin-right: 20px;
+        width: 380px;
+        height: 490px;
+        margin-top: -240px;
+    }
+
+    blockquote {
+        width: 450px;
+        margin-left: 40px;
+    }
+
+    .containerx {
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+/* TABLETS */
+@media (max-width: 768px) {
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #foto {
+        float: none;
+        margin: 20px auto;
+        width: 350px;
+        height: 450px;
+    }
+
+    header p:th-of-type(1),
+    h1,
+    .cargo,
+    blockquote {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .cargo {
+        border-left: none;
+        border-bottom: #001b6b 5px solid;
+        margin: 20px auto;
+    }
+
+    blockquote {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .containerx {
+        width: 100%;
+        left: 0;
+        justify-content: center;
+    }
+
+    .sobre-habilidades {
+        flex-direction: column;
+    }
+
+    .projetos {
+        flex-direction: column;
+    }
+}
+
+/* SMARTPHONES */
+@media (max-width: 480px) {
+    h2{
+        text-align: center;
+    }
+
+    .fundo{
+        margin: 10px auto;
+        width: 95%;
+    }
+
+    nav {
+        height: auto;
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    nav a {
+        font-size: 15px;
+        padding: 5px 8px;
+    }
+
+    .apresentacao {
+        margin-top: 55px;
+        padding: 10px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    header p{
+        order: 1;
+        margin-top: 10px;
+        margin-left: -10px;
+        font-size: 1rem;
+    }
+
+    h1 {
+        order: 2;
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #foto {
+        order: 3;
+        float: none;
+        margin: 20px auto;
+        width: 260px;
+        height: 330px;
+    }
+
+    .cargo {
+        order: 4;
+        font-size: 1.2rem;
+        margin: 15px 0;
+        margin-top: -5px;
+        text-align: center;
+        
+    }
+
+    blockquote {
+        order: 5;
+        font-size: 1.1rem;
+        width: 100%;
+        padding: 15px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    blockquote::before {
+        display: none;
+    }
+
+    .containerx {
+        order: 6;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .containerx img {
+        margin-bottom: 0;
+        left: 0;
+    }
+
+    .containerx p {
+        font-size: 18px;
+    }
+
+    #habilidades li {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+    .contatos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer p{
+        font-size: 14px;
+    }
+
+    .habilidades{
+        display: inline-block;
+    }
+}
