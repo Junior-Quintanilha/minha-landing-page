@@ -67,7 +67,7 @@ nav a:hover {
 
 /* APRESENTAÇÃO */
 .fundo {
-    background-image: url(../img/fundo.jpg);
+    background-image: url("../img/fundo.jpg");
     background-size: cover;
     padding: 20px;
     margin-left: 10px;
